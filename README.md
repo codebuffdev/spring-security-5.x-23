@@ -9,5 +9,5 @@ Just created a web application, with some endpoints
 3. Get the default sign in form 
 
 ## web-security-user-auth
-1. Added a In-memoory user
+1. Added a In-memory user
 2. Authenticated via Form & Basic AuthenticationFilters 
