@@ -1,0 +1,7 @@
+in\spdev\web\security\WebSecurityApplicationInitializer.class
+in\spdev\web\initializer\WebApplicationInitializer.class
+in\spdev\web\config\WebApplicationConfig.class
+in\spdev\web\security\WebSecurityApplicationConfig.class
+in\spdev\web\controller\BasicResponseController.class
+in\spdev\web\controller\HealthCheckRestController.class
+in\spdev\web\controller\LoginController.class
