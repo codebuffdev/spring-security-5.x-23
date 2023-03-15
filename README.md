@@ -26,3 +26,8 @@ Just created a web application, with some endpoints
 1. Using spring provided predefined schema  
 2. Presist the User & authorities manually 
 3. Authentication via data retrieving from db   
+
+## web-security-singup 
+1. It's a typo sign up
+2. Allowing user to sign up to the application 
+3. Persisting their credentials to the database
