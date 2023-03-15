@@ -21,3 +21,8 @@ Just created a web application, with some endpoints
 
 ## web-security-auth-custom-form
 1. In place of default form page here using custom form page for authentication
+
+## web-security-auth-jdbc-db
+1. Using spring provided predefined schema  
+2. Presist the User & authorities manually 
+3. Authentication via data retrieving from db   
