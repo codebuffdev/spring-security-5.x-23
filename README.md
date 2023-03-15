@@ -11,3 +11,9 @@ Just created a web application, with some endpoints
 ## web-security-user-auth
 1. Added a In-memory user
 2. Authenticated via Form & Basic AuthenticationFilters 
+
+
+## web-security-user-role-based-authorization
+1. Added 3 In-memory user with roles
+2. A controller with different endpoints
+3. RoleBasedAuthorization
