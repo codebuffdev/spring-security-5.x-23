@@ -17,3 +17,7 @@ Just created a web application, with some endpoints
 1. Added 3 In-memory user with roles
 2. A controller with different endpoints
 3. RoleBasedAuthorization
+
+
+## web-security-auth-custom-form
+1. In place of default form page here using custom form page for authentication
