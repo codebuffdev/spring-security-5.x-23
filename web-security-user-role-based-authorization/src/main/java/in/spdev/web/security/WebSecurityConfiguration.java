@@ -34,12 +34,14 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/check").permitAll()
-                .anyRequest().authenticated()
-                .antMatchers("/user").hasAuthority("user")
-                .antMatchers("/admin").hasAuthority("admin")
-                .antMatchers("/dev").hasAuthority("dev")
+                .antMatchers("/user").hasRole("user")
+                .antMatchers("/admin").hasRole("admin")
+                .antMatchers("/dev").hasRole("dev")
                 .and()
-                .formLogin();
+                .formLogin()
+                .and()
+                .exceptionHandling()
+                .accessDeniedPage("/denied")
+        ;
     }
 }

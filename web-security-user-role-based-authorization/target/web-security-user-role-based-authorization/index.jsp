@@ -1,5 +1,2 @@
-<html>
-<body>
-<h2>Hello World!</h2>
-</body>
-</html>
+<h1>Role Based Authorization</h1>
+<a href="${pageContext}/admin">Admin Dashboard</a>
