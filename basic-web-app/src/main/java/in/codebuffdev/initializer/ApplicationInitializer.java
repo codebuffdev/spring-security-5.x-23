@@ -1,6 +1,6 @@
-package in.spdev.initializer;
+package in.codebuffdev.initializer;
 
-import in.spdev.config.ApplicationConfiguration;
+import in.codebuffdev.config.ApplicationConfiguration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

@@ -1,4 +1,4 @@
-package in.spdev.controller;
+package in.codebuffdev.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
