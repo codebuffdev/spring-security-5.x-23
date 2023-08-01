@@ -73,3 +73,8 @@ Here i'm using spring security version `5.3.3.RELEASE` , but using the webmvc ve
 1. Added required dependencies
 2. Registered SpringSecurityFilterChain
 3. Get the default sign in form
+
+# web-security-in-memory-user-auth
+
+1. Added a In-memory user with role
+
